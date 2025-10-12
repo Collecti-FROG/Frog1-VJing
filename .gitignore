@@ -1,3 +1,13 @@
+# Ignore all files by default
 *
+
+# Except the .gitignore file and README.md
 !.gitignore
 !README.md
+
+# Allow parent folders
+!*/
+
+# List specific files and folders to keep
+!Compositions/Collecti'FROG_Compo.avc
+!Presets/Advanced Output/Collecti'FROG_Output.xml
